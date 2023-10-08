@@ -21,7 +21,7 @@ public class CustomProfileSelector extends DefaultProfileSelector {
     @Override
     public List<Profile> getActiveProfiles(Collection<Profile> profiles, ProfileActivationContext context, ModelProblemCollector problems) {
         List<Profile> defaultList = super.getActiveProfiles(profiles, context, problems);
-        log.info("Hello from the Maven extension sandbox");
+//        log.info("Hello from the Maven extension sandbox");
         return defaultList;
     }
 }
